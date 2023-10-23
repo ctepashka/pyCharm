@@ -1,0 +1,41 @@
+1
+a = int(input())
+b = int(input())
+
+print(a, "+", b, "=", a+b)
+print(a, "-", b, "=", a-b)
+print(a, "/", b, "=", round(a/b, 7))
+2
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+print((a+b+c+d)/4)
+3
+a = int(input())
+b = int(input())
+print(b>a)
+4
+word1 = input()
+word2 = input()
+print(word2>word1)
+5
+a = int(input())
+b = int(input())
+c = int(input())
+print((a/b == 3/4) and b/c == 4/5)
+6
+s = input()
+print("  " + s + "  ")
+print(" " + s + " " + s)
+print(s+s+s+s+s)
+7
+s = input()
+print("     " + s + "    ")
+print("  " + s + "  " + s + "  " + s + "")
+print("    " + s + s + s + "    ")
+print(s+ " " + s +" "+ s + " "+ s +" "+s +" "+s +" "+s)
+print("    " + s + s + s + "    ")
+print("  " + s + "  " + s + "  " + s + "")
+print("     " + s + "    ")
+8
